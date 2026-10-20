@@ -1,0 +1,15 @@
+# Virtual Environment (Git will ignore the entire 6.3 GB folder)
+.venv/
+env/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Large raw training datasets (GitHub rejects files/repos over 100MB)
+data/raw/CREMA-D/
+data/raw/Actor_*/
+
+# Temporary batch results
+ser_batch_results.csv
